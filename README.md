@@ -1,4 +1,4 @@
 
 # Project Lockjaw
-### Project created by Illinois
-### Wiki created by Abriel
+
+Navigate to the Wiki from the top bar of the page.
