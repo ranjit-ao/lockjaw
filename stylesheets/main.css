@@ -2,15 +2,18 @@ body {
   font-family: monospace, georgia;
   text-align: center;
   color: #473f33;
-  background: #d9d5d0;
+  background: red;
+  //background: #d9d5d0;
 }
 
 a {
-  color: #94641b;
+  //color: #94641b;
+  color: green;
 }
 
 a:visited {
-  color: #db962c;
+  //color: #db962c;
+  color: orange
 }
 
 ul {
@@ -33,7 +36,8 @@ img {
 }
 
 #main {
-  background: #edeae6;
+  //background: #edeae6;
+  background: yellow;
 }
 
 #img-caption {
