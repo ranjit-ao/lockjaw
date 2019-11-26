@@ -3,7 +3,7 @@ body {
   text-align: center;
   /*color: #473f33;*/
   color: orange;
-  background: lime;
+  background: #7FFF00;
   /*background: #d9d5d0;*/
 }
 
@@ -39,7 +39,7 @@ img {
 
 #main {
   /*background: #edeae6;*/
-  background: lime;
+  background: #7FFF00;
 }
 
 #img-caption {
