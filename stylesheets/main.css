@@ -18,7 +18,7 @@ a:visited {
 }
 
 ul {
-  font-family: arial;
+  font-family: "TyponineSans Regular 18", "Lucida Grande", Lucida, Verdana, sans-serif;
   max-width: 550px;
   margin: 0 auto 50px auto;
   text-align: left;
