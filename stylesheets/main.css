@@ -1,0 +1,41 @@
+body {
+  font-family: monospace, georgia;
+  text-align: center;
+  color: #473f33;
+  background: #d9d5d0;
+}
+
+a {
+  color: #94641b;
+}
+
+a:visited {
+  color: #db962c;
+}
+
+ul {
+  font-family: arial;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+li {
+  margin: 16px 0;
+}
+
+img {
+  max-width: 40%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+#main {
+  background: #edeae6;
+}
+
+#img-caption {
+  font-family: arial;
+}
