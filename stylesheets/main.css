@@ -26,7 +26,7 @@ li {
 }
 
 img {
-  max-width: 100%;
+  max-width: 60%;
   display: block;
   margin: 0 auto;
   border-radius: 15px;
@@ -38,4 +38,12 @@ img {
 
 #img-caption {
   font-family: arial;
+}
+
+.container {
+  padding: 25px;
+}
+
+h2 {
+  margin-top: 50px;
 }
