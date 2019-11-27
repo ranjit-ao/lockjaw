@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
 
 body {
   font-family: monospace, georgia;
   text-align: center;
-  color: gray;
+  color: #474747;
   background: #1c0906;
 }
 
@@ -21,7 +22,7 @@ ul {
   margin: 0 auto 50px auto;
   text-align: left;
   line-height: 2;
-  
+  list-style-type: circle;
 }
 
 li {
@@ -51,6 +52,7 @@ img {
 h2 {
   margin-top: 50px;
   letter-spacing: 0.2rem;
+  font-family: 'Special Elite', cursive;
 }
 
 .bg-img1 {
