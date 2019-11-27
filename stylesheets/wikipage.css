@@ -87,3 +87,8 @@ h2 {
   min-height: 100%;
   position: relative;
 }
+
+li span {
+  position: relative;
+  left: 10px;
+}
