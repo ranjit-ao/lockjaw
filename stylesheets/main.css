@@ -92,3 +92,10 @@ li span {
   position: relative;
   left: 10px;
 }
+
+.credit {
+  font-size: 12px;
+  padding-left: 360px;
+  padding-right: 360px;
+  padding-bottom: 40px;
+}
