@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans:300,400');
+
 body {
   font-family: monospace, georgia;
   text-align: center;
-  color: #473f33;
-  background: #d9d5d0;
+  color: gray;
+  background: #1c0906;
 }
 
 a {
@@ -19,10 +21,12 @@ ul {
   margin: 0 auto 50px auto;
   text-align: left;
   line-height: 2;
+  
 }
 
 li {
   margin: 16px 0;
+  letter-spacing: 0.05rem;
 }
 
 img {
@@ -33,7 +37,7 @@ img {
 }
 
 #main {
-  background: #edeae6;
+  background: #FFF;
 }
 
 #img-caption {
@@ -46,4 +50,30 @@ img {
 
 h2 {
   margin-top: 50px;
+  letter-spacing: 0.2rem;
+}
+
+.bg-img1 {
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('https://cdn.discordapp.com/attachments/438776217840254976/535966635031527425/image.png');
+  padding: 200px;
+}
+
+.text-uppercase {
+  color: lightGray;
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 100;
+  font-family: 'Julius Sans One', monospace, sans-serif;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+  position: relative;
 }
