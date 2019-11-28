@@ -65,7 +65,7 @@ h2 {
 
 .bg-img1 {
   background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('https://cdn.discordapp.com/attachments/438776217840254976/535966635031527425/image.png');
-  padding: 100%;
+  padding: 50%;
 }
 
 .text-uppercase {
