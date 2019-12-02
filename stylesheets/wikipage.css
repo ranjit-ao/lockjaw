@@ -92,3 +92,21 @@ li span {
   position: relative;
   left: 10px;
 }
+
+.navi {
+  padding: 15px;
+  color: white;
+  background-color: darkred;
+  margin: 0 0 0 0;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+}
+
+.containers {
+  background-color: lightgray;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 900px;
+  grid-auto-rows: 50px;
+  justify-content: space-evenly;
+}
