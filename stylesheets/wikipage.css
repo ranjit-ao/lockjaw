@@ -106,7 +106,7 @@ li span {
 .containers {
   background-color: lightgray;
   display: grid;
-  grid-template-columns: 150px 150px 150px 150px 150px 900px;
+  grid-template-columns: 150px 150px 150px 150px 150px repeat(200, auto);
   grid-auto-rows: 50px;
   justify-content: space-evenly;
 }
