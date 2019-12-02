@@ -101,6 +101,13 @@ li span {
   text-align: center;
   letter-spacing: 0.1rem;
   text-decoration: none;
+  background: rgb(25,0,0);
+  background: linear-gradient(0deg, rgba(25,0,0,1) 0%, rgba(121,9,9,1) 82%, rgba(140,8,8,1) 100%);
+}
+
+.navi:hover {
+  background: rgb(46,1,1);
+  background: linear-gradient(0deg, rgba(46,1,1,1) 0%, rgba(108,10,10,1) 62%, rgba(152,10,10,1) 89%);
 }
 
 .containers {
@@ -109,4 +116,5 @@ li span {
   grid-template-columns: 150px 150px 150px 150px 150px repeat(200, auto);
   grid-auto-rows: 50px;
   justify-content: space-evenly;
+  
 }
