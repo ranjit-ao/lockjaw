@@ -19,7 +19,7 @@ a:visited {
 p {
   font-family: "TyponineSans Regular 18", "Lucida Grande", Lucida, Verdana, sans-serif;
   max-width: 800px;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 20px auto;
   text-align: left;
   line-height: 1.5;
 }
@@ -58,19 +58,21 @@ img {
 }
 
 h2 {
-  margin-top: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   letter-spacing: 0.2rem;
   font-family: 'Special Elite', cursive;
 }
 
 .bg-img1 {
   background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('https://cdn.discordapp.com/attachments/438776217840254976/535966635031527425/image.png');
-  padding: 300px;
+  padding-bottom: 30%;
+  padding-top: 30%;
 }
 
 .text-uppercase {
   color: lightGray;
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: 0.5rem;
   font-weight: 100;
   font-family: 'Julius Sans One', monospace, sans-serif;
@@ -93,9 +95,35 @@ li span {
   left: 10px;
 }
 
-.credit {
-  font-size: 12px;
-  padding-left: 360px;
-  padding-right: 360px;
-  padding-bottom: 40px;
+.navi {
+  padding: 15px;
+  color: white;
+  background-color: darkred;
+  margin: 0 0 0 0;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  background: rgba(101,9,9,1);
+  transition: 0.2s;
+}
+
+.navi:visited {
+  color: white;
+}
+
+.navi:hover {
+  background: rgba(152,10,10,1);
+}
+
+.navi:active {
+  background: rgba(193,48,48,1);
+}
+
+.containers {
+  background-color: lightgray;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px repeat(200, auto);
+  grid-auto-rows: 50px;
+  justify-content: space-evenly;
+  
 }
