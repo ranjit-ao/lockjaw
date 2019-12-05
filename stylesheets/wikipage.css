@@ -101,13 +101,20 @@ li span {
   text-align: center;
   letter-spacing: 0.1rem;
   text-decoration: none;
-  background: rgb(25,0,0);
-  background: linear-gradient(0deg, rgba(25,0,0,1) 0%, rgba(121,9,9,1) 82%, rgba(140,8,8,1) 100%);
+  background: rgba(101,9,9,1);
+  transition: 0.2s;
+}
+
+.navi:visited {
+  color: white;
 }
 
 .navi:hover {
-  background: rgb(46,1,1);
-  background: linear-gradient(0deg, rgba(46,1,1,1) 0%, rgba(108,10,10,1) 62%, rgba(152,10,10,1) 89%);
+  background: rgba(152,10,10,1);
+}
+
+.navi:active {
+  background: rgba(193,48,48,1);
 }
 
 .containers {
